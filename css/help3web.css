@@ -253,7 +253,7 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #bce6ff;
-  padding: 10px 15px; /* tambah ruang kiri kanan */
+  padding: 10px; /* tambah ruang kiri kanan */
   border-radius: 40px;
   width: 90%; /* atau 100% kalau mau penuh */
   margin: auto;
@@ -382,3 +382,4 @@ header {
   font-size: 14px;
   outline: none;
 }
+
