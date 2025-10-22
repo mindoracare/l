@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #bde3fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  background-color: #bde3fa;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.logo span {
+  color: #555;
+  font-weight: 500;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon .icon {
+  position: relative;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.logo span {
+  color: #8f3fff;
+  font-weight: 600;
+}
+
+.role-select {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.btn-signup {
+  display: inline-block;
+  background-color: #ff4da6;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+  margin-top: 10px;
+
+}
+
+.btn-signup:hover {
+  background-color: #e33d90;
+}
+.logo img {
+  width: 200px;        /* ubah sesuai ukuran yang kamu mau */
+  height: auto;        /* biar proporsinya tetap bagus */
+  display: block;      /* agar bisa diatur posisi */
+  margin: 0 auto;      /* untuk posisi di tengah */
+}
+.back-btn {
+  position: absolute;   /* biar bisa nempel di pojok */
+  top: 20px;            /* jarak dari atas */
+  left: 20px;           /* jarak dari kiri */
+  text-decoration: none;
+}
+
+.back-btn img {
+  width: 30px;          /* ukuran panah */
+  height: auto;         /* biar proporsional */
+  cursor: pointer;      /* ubah kursor jadi tangan */
+  transition: transform 0.2s ease;  /* efek halus saat hover */
+}
+
+.back-btn img:hover {
+  transform: scale(1.1); /* sedikit membesar saat hover */
+}
+.role-option {
+  display: flex;
+  justify-content: center; /* biar posisi di tengah */
+  gap: 20px;               /* jarak antar label */
+  margin-top: 10px;
+}
+
+.role-option label {
+  display: flex;
+  align-items: center;     /* sejajarkan gambar dan teks */
+  gap: 8px;                /* jarak antara radio, gambar, dan teks */
+  cursor: pointer;         /* ubah kursor jadi tangan */
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.role-option label:hover {
+  transform: scale(1.05);
+}
+
+.role-img {
+  width: 30px;             /* ukuran gambar */
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;      /* kalau mau jadi bulat */
+}
